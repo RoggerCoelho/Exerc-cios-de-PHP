@@ -1,0 +1,112 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Exercício 1</h1>
+    <p class="descricao">
+        Construir um script php que leia 2 números
+        por requisição GET e efetue a adição. Caso o
+        valor somado seja maior que 20, este deverá
+        ser apresentando somando-se a ele mais 8;
+        caso o valor somado seja menor ou igual a
+        20, este deverá ser apresentado subtraindo-
+        se 5.
+    </p>
+    <form action="questao1.php" method="get">
+        <p>Digite 2 números:</p>
+        <input type="number" name="num1" id="" placeholder="Informe o número 1">
+        <input type="number" name="num2" id="" placeholder="Informe o número 2">
+        <button type="submit">Calcular</button>
+    </form>
+    <hr>
+
+    <h1>Exercício 2</h1>
+    <p class="descricaoo">
+        Entrar com um número por requisição
+        GET e informar se ele é divisível por 10,
+        por 5, por 2 ou se não é divisível por
+        nenhum destes.
+    </p>
+    <form action="questao2.php" method="get">
+        <p>Digite 1 número e veja se é divisível por 10, 5 e 2:</p>
+        <input type="number" name="num3" id="" placeholder="Informe um número">
+        <button type="submit">Calcular</button>
+    </form>
+    <hr>
+
+
+    <h1>Exercício 3</h1>
+    <p class="descricaoo">
+        Utilizando um formulário HTML para
+        submeter uma requisição por método POST.
+        Enviar nome, sexo e idade de uma pessoa.
+        Se a pessoa for do sexo feminino e tiver
+        menos que 25 anos, imprimir nome e a a
+        mensagem: ACEITA. Caso contrário,
+        imprimir nome e a mensagem: NÃO ACEITA.
+    </p>
+    <form action="questao3.php" method="post">
+        <p>Informe o nome, sexo e idade:</p>
+        <input type="text" name="nome" placeholder="Informe seu nome">
+        <select name="sexo" id="">Sexo
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+        </select>
+        <input type="number" name="idade" id="" placeholder="Informe sua idade">
+        <button type="submit">Enviar</button>
+    </form>
+    <hr>
+
+    <h1>Exercício 4</h1>
+    <p class="descricaoo">
+        Submeter 3 números a um script PHP e
+        imprimi-los em ordem decrescente.
+    </p>
+    <form action="questao4.php" method="post">
+        <p>Informe 3 números:</p>
+        <input type="number" name="num5" id="" placeholder="1º número">
+        <input type="number" name="num6" id="" placeholder="2º número">
+        <input type="number" name="num7" id="" placeholder="3º número">
+        <button type="submit">Enviar</button>
+    </form>
+    <hr>
+
+    <h1>Exercício 5</h1>
+    <p class="descricaoo">
+        Submeter 3 números, os possíveis lados
+        de um triângulo, e imprimir a
+        classificação de acordo com tamanho
+        dos lados.
+    </p>
+    <form action="questao5.php" method="post">
+        <p>Informe os 3 lados do triângulo:</p>
+        <input type="number" name="num8" id="" placeholder="Lado 1">
+        <input type="number" name="num9" id="" placeholder="Lado 2">
+        <input type="number" name="num10" id="" placeholder="Lado 3">
+        <button type="submit">Enviar</button>
+    </form>
+    <hr>
+
+    <h1>Exercício 6</h1>
+    <p class="descricaoo">
+        Submeter um número inteiro entre 1 e 12 e
+        escrever o mês correspondente. Caso o
+        número seja fora desse intervalo, informar
+        que não existe mês com este número.
+    </p>
+    <form action="questao6.php" method="post">
+        <p>Informe 1 número entre 1 e 12:</p>
+        <input type="number" name="num11" id="" placeholder="Informe o mês">
+        <button type="submit">Enviar</button>
+    </form>
+    <hr>
+
+</body>
+
+</html>

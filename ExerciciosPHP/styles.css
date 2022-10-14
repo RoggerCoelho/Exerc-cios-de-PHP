@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+    color: #444444;
+}
+
+form {
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+p.descricao {
+    font-style:italic;
+}
+
